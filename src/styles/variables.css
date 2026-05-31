@@ -1,0 +1,101 @@
+:root {
+  /* ── Backgrounds (紙 kami — paper tones) ── */
+  --washi:   #f5f0e8; /* 和紙 handmade paper — primary background */
+  --shoji:   #ffffff; /* 障子 translucent screen — surface/card */
+  --fusuma:  #ece6d9; /* 襖 opaque panel — subtle accent bg */
+  --engawa:  #f0ebe0; /* 縁側 veranda — hover states, secondary bg */
+
+  /* ── Ink Tones (墨 sumi — dark neutrals) ── */
+  --sumi:    #2c2c2c; /* 墨 ink — primary text */
+  --sumi-2:  #4a4a47; /* diluted ink — secondary text */
+  --sumi-3:  #7a7a77; /* pale wash — tertiary/placeholder */
+  --sumi-4:  #b8b8b4; /* very pale — borders, dividers */
+
+  /* ── Forest Tones (森林 shinrin — Kodama theme) ── */
+  --shinrin:       #385e3c; /* 森林 forest — primary brand */
+  --shinrin-dark:  #1e3621; /* forest deeps — dark accent */
+  --shinrin-light: #a3c9a8; /* forest glade — light accent */
+  --konpeki:       #007bbb; /* 紺碧 ethereal cyan — secondary brand */
+  
+  /* ── Accent Gradient ── */
+  --accent-gradient: linear-gradient(135deg, var(--shinrin) 0%, var(--konpeki) 100%);
+
+  /* ── Semantic aliases ── */
+  --color-bg:            var(--washi);
+  --color-surface:       var(--shoji);
+  --color-border:        var(--sumi-4);
+  --color-text:          var(--sumi);
+  --color-text-2:        var(--sumi-2);
+  --color-text-3:        var(--sumi-3);
+  --color-primary:       var(--shinrin);
+  --color-primary-dark:  var(--shinrin-dark);
+  --color-primary-light: var(--shinrin-light);
+  --color-accent:        var(--konpeki);
+
+  /* ── Typography ── */
+  --font-body: system-ui, 'Segoe UI', 'Noto Sans JP', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+
+  --weight-normal:   400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --weight-black:    800;
+
+  --leading-tight:   1.25;
+  --leading-base:    1.5;
+  --leading-relaxed: 1.75;
+
+  /* ── Spacing (4px grid) ── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+
+  /* ── Border radius ── */
+  --radius-sm:   4px;
+  --radius:      8px;
+  --radius-lg:   12px;
+  --radius-xl:   16px;
+  --radius-2xl:  20px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-xs:      0 1px 2px rgb(44 44 44 / 0.06);
+  --shadow-sm:      0 2px 8px rgb(44 44 44 / 0.08);
+  --shadow:         0 4px 16px rgb(44 44 44 / 0.10);
+  --shadow-md:      0 10px 24px rgb(44 44 44 / 0.10);
+  --shadow-lg:      0 20px 40px rgb(44 44 44 / 0.14);
+  --shadow-inner:   inset 0 2px 4px rgb(44 44 44 / 0.06);
+  --shadow-overlay: 0 12px 40px rgb(44 44 44 / 0.22);
+
+  /* ── Motion ── */
+  --ease:        cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-out:    cubic-bezier(0.0, 0, 0.2, 1);
+
+  --duration-fast:   140ms;
+  --duration-base:   250ms;
+  --duration-slow:   400ms;
+  --duration-slower: 600ms;
+
+  /* ── Layout ── */
+  --container-sm:  480px;
+  --container-md:  840px;
+  --header-height: 60px;
+}

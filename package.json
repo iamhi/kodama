@@ -1,0 +1,30 @@
+{
+  "name": "kodama",
+  "version": "0.1.0",
+  "description": "木霊 — Standalone landing page",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "autoprefixer": "10.5.0",
+    "cssnano": "8.0.1",
+    "eslint": "10.4.1",
+    "postcss": "8.5.15",
+    "postcss-nesting": "14.0.0",
+    "postcss-preset-env": "11.3.0",
+    "prettier": "3.8.3",
+    "vite": "8.0.14"
+  },
+  "dependencies": {
+    "marked": "18.0.4"
+  }
+}
